@@ -1,6 +1,8 @@
 import "./Login.css";
 import niceImg from "../images/left.PNG"
 import rightImg from "../images/right.PNG"
+import { Link } from "react-router-dom";
+
 const Login = () => {
   return (
     <div className="container login-container">
@@ -29,7 +31,7 @@ const Login = () => {
                 <div className="mt-3 mb-5 d-grid">
                     <button className="custom-btn custom-btn-white">
                         <span className="text-muted">Don't have an account?</span>
-                        <span className="ms-1 text-info fw-bold">Sign Up</span>
+                        <Link to="/signup" className="ms-1 text-info fw-bold">Sign Up</Link>
                     </button>
                 </div>
 
