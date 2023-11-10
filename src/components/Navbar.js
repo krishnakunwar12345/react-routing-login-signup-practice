@@ -1,16 +1,20 @@
-import React from "react";
+ import React from "react";
 import "./Navbar.css"
-import logo from "../images/logo.png"//
+import logo from "../images/logo.PNG"
 
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar bg-light shadow-sm">
+      <nav className="navbar bg-light shadow">
         <div className="container-fluid">
-          <a classNameName="navbar-brand">Navbar</a>
+          <a classNameName="navbar-brand ms-5">
+            <img alt="logo" src={logo} height="45px"/>
+          </a>
           <form className="d-flex" role="search">
-            <input className="form-control me-2" type="search"placeholder="Search"/>
-            <button className="btn btn-outline-success" type="submit">Search</button>
+            <input className="searchbox form-control me-2 text-muted" type="search" placeholder="Search"/>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>         
           </form>
         </div>
       </nav>

@@ -1,3 +1,11 @@
 .navbar{
     height: 66px !important;
 }
+.nav-link{
+    margin-right: 20px;
+}
+.searchbox{
+    width: 30vw;
+    padding: 5px;
+}
+
