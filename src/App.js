@@ -4,9 +4,11 @@ import Signup from './pages/Signup';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/Navbar';
 import Postoverview from './pages/Postoverview';
+
+
 function App() {
   return (
-    <div>
+    <div className='app-bg'>
     <NavBar/>
     <Router>
       <Routes>

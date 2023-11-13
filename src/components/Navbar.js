@@ -5,7 +5,7 @@ import logo from "../images/logo.PNG"
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar bg-light shadow">
+      <nav className="navbar bg-light shadow-sm">
         <div className="container-fluid">
           <a classNameName="navbar-brand ms-5">
             <img alt="logo" src={logo} height="45px"/>
