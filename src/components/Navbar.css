@@ -1,11 +1,23 @@
 .navbar{
     height: 75px !important;
 }
-.nav-link{
-    margin-right: 20px;
-}
 .searchbox{
     width: 30vw;
     padding: 10px;
 }
+.searchIcon{
+    display: none;
+}
+@media only screen and (max-width:450px) {
+    .searchbox{
+        display: none;
+    }
+    .navbar-brand{
+        margin: 5px !important;
+    }
+    .searchIcon{
+        display: block;
+    }
+}
+
 

@@ -1,7 +1,7 @@
 import "./Login.css";
 import niceImg from "../images/left.PNG"
 import rightImg from "../images/right.PNG"
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 
 const Login = () => {
   return (
