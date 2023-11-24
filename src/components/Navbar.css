@@ -1,23 +1,26 @@
-.navbar{
-    height: 75px !important;
+.navbar {
+  height: 75px !important;
 }
-.searchbox{
-    width: 30vw;
-    padding: 10px;
+.searchbox {
+  width: 30vw;
+  padding: 10px;
 }
-.searchIcon{
+.searchIcon {
+  display: none;
+}
+.navbar-profile-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 450px) {
+  .searchbox {
     display: none;
+  }
+  .navbar-brand {
+    margin: 5px !important;
+  }
+  .searchIcon {
+    display: block;
+  }
 }
-@media only screen and (max-width:450px) {
-    .searchbox{
-        display: none;
-    }
-    .navbar-brand{
-        margin: 5px !important;
-    }
-    .searchIcon{
-        display: block;
-    }
-}
-
-
